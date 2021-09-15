@@ -18,7 +18,7 @@ const CompletedMatch = ({isHome, teamTwo, teamOneScore, teamTwoScore, matchResul
                 </div>
                 <div className="versus">{isHome === "true" ? 'vs' : 'at'}</div>
                 <div className="team">
-                    <div className="team-logo"><img className={teamTwoPhoto === "miami" ? 'miami' : ''} src={"images/" + teamTwoPhoto.toString().toLowerCase() + ".svg"} alt="" /></div>
+                    <div className="team-logo"><img className={teamTwoPhoto === "Miami" ? 'miami' : ''} src={"images/" + teamTwoPhoto.toString().toLowerCase() + ".svg"} alt="" /></div>
                     <div className="team-name">{teamTwo}</div>
                 </div>
             </div>
