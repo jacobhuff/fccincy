@@ -3,6 +3,7 @@ const express = require("express");
 const PORT = process.env.PORT || 3001;
 
 const app = express();
+const path = require('path');
 
 // Production Mode
 if (process.env.NODE_ENV === 'production') {
