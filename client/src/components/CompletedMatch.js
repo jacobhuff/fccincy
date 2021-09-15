@@ -24,9 +24,11 @@ const CompletedMatch = ({isHome, teamTwo, teamOneScore, teamTwoScore, matchResul
             </div>
             <div className="game-time-container">
                 <div className="game-scores">
+                    <div className="game-score-padding"></div>
                     <div className="game-score">{teamOneScore}</div>
                     <div className="game-versus" id={matchResult}>{matchResult}</div>
                     <div className="game-score">{teamTwoScore}</div>
+                    <div className="game-score-padding"></div>
                 </div>
                 <div className="game-date">{matchDate}</div>
                 <div className="game-link">Details</div>
